@@ -1,2 +1,3 @@
-# midterm
-CI/CD for midterm
+# maven-project
+
+Simple Maven Project
