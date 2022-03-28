@@ -80,12 +80,10 @@
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>taglist-maven-plugin</artifactId>
             </plugin>
-          </reportPlugins>
+                            </reporting>
         </configuration>
       </plugin>
     </plugins>
-             </reporting>
-
     <pluginManagement>
       <plugins>
         <plugin>
