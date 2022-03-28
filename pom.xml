@@ -47,10 +47,9 @@
       </plugin>
 
       <plugin>
-               <artifactId>maven-site-plugin</artifactId>
+        <artifactId>maven-site-plugin</artifactId>
         <configuration>
-          <reporting>
-                   <plugins>
+          <reportPlugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
@@ -80,10 +79,12 @@
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>taglist-maven-plugin</artifactId>
             </plugin>
-                   </plugins>
-                 </reporting>
-               </configuration>
-               <pluginManagement>
+          </reportPlugins>
+        </configuration>
+      </plugin>
+    </plugins>
+
+    <pluginManagement>
       <plugins>
         <plugin>
           <artifactId>maven-checkstyle-plugin</artifactId>
