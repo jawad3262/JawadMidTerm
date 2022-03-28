@@ -50,7 +50,7 @@
                <artifactId>maven-site-plugin</artifactId>
         <configuration>
           <reporting>
-                   <Plugins>
+                   <plugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
