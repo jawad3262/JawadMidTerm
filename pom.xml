@@ -47,8 +47,7 @@
       </plugin>
 
       <plugin>
-        <artifactId>maven-site-plugin</artifactId>
-               <version>3.6</version>
+               <artifactId>maven-site-plugin</artifactId>
         <configuration>
           <reportPlugins>
             <plugin>
